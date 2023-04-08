@@ -6,10 +6,10 @@ export default StyleSheet.create({
             flex:1
     },
     image:{
-        
+        backgroundColor:"gray",
         width:Dimensions.get("window").width,
         height:200,
-        resizeMode:"contain",
+        resizeMode:'stretch',
     },
     text:{
         flex:3,
