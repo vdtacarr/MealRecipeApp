@@ -1,6 +1,6 @@
 import React from 'react'
 import { View , FlatList} from 'react-native'
-import { useState,useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import MealItem from '../../components/MealItem/MealItem'
 import axios from 'axios';
 

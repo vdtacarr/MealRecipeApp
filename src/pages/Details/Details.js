@@ -19,7 +19,7 @@ function Details({ route }) {
     const { data: mealData } = await axios.get(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${meal}`);
     const mealObject = mealData.meals[0];
     SetMealDetail(mealObject);
-    dispatch({type:"ADD", payload:{"detail": mealObject}})
+    dispatch({type:"ADD-MEAL", payload:{"detail": mealObject}})
   }
 
   return (

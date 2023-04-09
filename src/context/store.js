@@ -1,3 +1,4 @@
 export default {
-    mealItem : []
+    mealItem : [],
+    favoriteItems : []
 };
